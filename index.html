@@ -14,22 +14,21 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
-		<script src="index.js"></script>
+		<script src="app.js"></script>
 	</head>
 
 	<body>
 
     <header>
       <div class="desktop-email-form">
-        <form id="ajax-contact" method="post" action="">
+        <form id="desktop-email-ajax" method="post" action="mailer.php">
           <p>Sign up for our email newsletter:</p>
           <div class="field">
-            <label for="email">Email:</label>
-            <textarea id="email" name="email" required></textarea>
+            <input type="email" name="email" required></input>
           </div>
 
           <div class="field">
-            <button type="submit">Send</button>
+            <button type="submit">Sign Up</button>
           </div>
         </form>
       </div>
@@ -75,15 +74,14 @@
     </div>
 
     <div class="mobile-email-form">
-      <form id="ajax-contact" method="post" action="">
+      <form id="mobile-email-ajax" method="post" action="mailer.php">
         <p>Sign up for our email newsletter:</p>
         <div class="field">
-          <label for="email">Email:</label>
-          <textarea id="email" name="email" required></textarea>
+          <input type="email" name="email" required></input>
         </div>
 
         <div class="field">
-          <button type="submit">Send</button>
+          <button type="submit">Sign Up</button>
         </div>
       </form>
     </div>
