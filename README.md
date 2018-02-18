@@ -3,11 +3,13 @@
 
 TODO:
 
-- CNAME
-- hook up domain manager
-- hook up google sheets
-- write AJAX POST request to google sheet for email collection
-- bones
+- html bones
 - mobile first layout
 - fonts
 - colors
+- write AJAX POST request to google sheet for email collection
+- hook up google sheets
+- php mailer?
+- push to ghpages
+- hook up domain manager
+- CNAME
