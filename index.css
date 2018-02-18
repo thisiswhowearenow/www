@@ -1,0 +1,138 @@
+html, body, h1, h2, h3, h4, p, div {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, monospace;
+}
+h1, h2 {
+	font-family: "Oswald", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+a, ul, li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+label, p {
+	margin: 15px auto;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+	.desktop-email-form {
+		display: none;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.mobile-email-form {
+		display: none;
+	}
+}
+
+header {
+	margin: 40px 20%;
+}
+
+hr {
+	height: 10px;
+
+	margin: 0px;
+	border: 0px;
+}
+.red-hr {
+	background-color: rgb(226, 141, 103);
+}
+.yellow-hr {
+	background-color: rgb(247, 217, 87);
+}
+.blue-hr {
+	background-color: rgb(156, 214, 214);
+}
+
+.subtext p {
+	text-align: center;
+}
+
+footer {
+	margin: 20px auto;
+}
+ul {
+	height: 50px;
+
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+
+	margin: 0 auto;
+}
+@media all and (max-width: 480px) {
+	ul {
+		width: 90%;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 768px) {
+	ul {
+		width: 75%;
+	}
+}
+@media all and (min-width: 769px) and (max-width: 1400px) {
+	ul {
+		width: 50%;
+	}
+}
+@media all and (min-width: 1400px) {
+	ul {
+		width: 35%;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.facebook {
+		color: rgb(156, 214, 214);
+	}
+	.instagram {
+		color: rgb(247, 217, 87);
+	}
+	.twitter {
+		color: rgb(226, 141, 103);
+	}
+}
+@media all and (min-width: 481px) {
+	.facebook, .instagram, .twitter {
+		color: #000000;
+	}
+	.facebook i:hover {
+		color: rgb(156, 214, 214);
+	}
+	.instagram i:hover {
+		color: rgb(247, 217, 87);
+	}
+	.twitter i:hover {
+		color: rgb(226, 141, 103);
+	}
+}
+footer p {
+	text-align: center;
+}
+
+
+
+
+/*// BREAKPOINTS
+
+$breakpoints: (
+  "extra-small": 320px,
+  "small": 480px,
+  "medium": 768px,
+  "large": 1024px,
+  "extra-large": 1400px
+);*/
