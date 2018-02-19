@@ -5,6 +5,7 @@ html, body, h1, h2, h3, h4, p, div {
 	font: inherit;
 	font-size: 100%;
 	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, monospace;
+	color: #505050
 }
 h1, h2 {
 	font-family: "Oswald", Arial, sans-serif;
@@ -14,32 +15,25 @@ h1, h2 {
 	text-transform: uppercase;
 	text-align: center;
 }
-a, ul, li {
+ul, li {
 	text-decoration: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-label, p {
+a {
+	color: rgb(226, 141, 103);
+}
+a:hover {
+	color: rgb(247, 217, 87);
+}
+a:visited {
+	color: rgb(156, 214, 214);
+}
+p {
 	margin: 15px auto;
 	font-size: 14px;
 }
-
-@media only screen and (max-width: 768px) {
-	.desktop-email-form {
-		display: none;
-	}
-}
-@media only screen and (min-width: 769px) {
-	.mobile-email-form {
-		display: none;
-	}
-}
-
-header {
-	margin: 40px 20%;
-}
-
 hr {
 	height: 10px;
 
@@ -56,13 +50,36 @@ hr {
 	background-color: rgb(156, 214, 214);
 }
 
+/*@media only screen and (max-width: 768px) {
+	.desktop-email-form {
+		display: none;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.mobile-email-form {
+		display: none;
+	}
+}*/
+
+header {
+	margin: 40px 20%;
+}
+
+.shows {
+	margin: 5% 5%;
+}
 .subtext p {
+	margin: 40px 5%;
 	text-align: center;
 }
 
 footer {
-	margin: 20px auto;
+	margin: 5% auto;
 }
+footer p {
+	text-align: center;
+}
+
 ul {
 	height: 50px;
 
@@ -96,13 +113,13 @@ ul {
 }
 
 @media all and (max-width: 480px) {
-	.facebook {
+	.facebook, .facebook i:hover {
 		color: rgb(156, 214, 214);
 	}
-	.instagram {
+	.instagram, .instagram i:hover {
 		color: rgb(247, 217, 87);
 	}
-	.twitter {
+	.twitter, .twitter i:hover {
 		color: rgb(226, 141, 103);
 	}
 }
@@ -120,19 +137,12 @@ ul {
 		color: rgb(226, 141, 103);
 	}
 }
-footer p {
-	text-align: center;
-}
-
-
-
-
-/*// BREAKPOINTS
-
+/*
 $breakpoints: (
   "extra-small": 320px,
   "small": 480px,
   "medium": 768px,
   "large": 1024px,
   "extra-large": 1400px
-);*/
+);
+*/
