@@ -9,3 +9,6 @@ JAVASCRIPT
 
 DNS
 - ALIAS .club & .net
+
+CSS
+- lint
