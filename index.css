@@ -1,3 +1,9 @@
+:root {
+	--gray: #505050;
+  --red: rgb(226, 141, 103);
+	--yellow: rgb(247, 217, 87);
+	--blue: rgb(156, 214, 214);
+}
 html, body, h1, h2, h3, h4, p, div {
 	padding: 0;
 	border: 0;
@@ -5,7 +11,7 @@ html, body, h1, h2, h3, h4, p, div {
 	font: inherit;
 	font-size: 100%;
 	font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, monospace;
-	color: #505050
+	color: var(--gray);
 }
 h1, h2 {
 	font-family: "Oswald", Arial, sans-serif;
@@ -22,13 +28,13 @@ ul, li {
 	padding: 0;
 }
 a {
-	color: rgb(226, 141, 103);
+	color: var(--red);
 }
 a:hover {
-	color: rgb(247, 217, 87);
+	color: var(--yellow);
 }
 a:visited {
-	color: rgb(156, 214, 214);
+	color: var(--blue);
 }
 p {
 	margin: 15px auto;
@@ -41,13 +47,13 @@ hr {
 	border: 0px;
 }
 .red-hr {
-	background-color: rgb(226, 141, 103);
+	background-color: var(--red);
 }
 .yellow-hr {
-	background-color: rgb(247, 217, 87);
+	background-color: var(--yellow);
 }
 .blue-hr {
-	background-color: rgb(156, 214, 214);
+	background-color: var(--blue);
 }
 
 /*@media only screen and (max-width: 768px) {
@@ -114,13 +120,13 @@ ul {
 
 @media all and (max-width: 480px) {
 	.facebook, .facebook i:hover {
-		color: rgb(156, 214, 214);
+		color: var(--blue);
 	}
 	.instagram, .instagram i:hover {
-		color: rgb(247, 217, 87);
+		color: var(--yellow);
 	}
 	.twitter, .twitter i:hover {
-		color: rgb(226, 141, 103);
+		color: var(--red);
 	}
 }
 @media all and (min-width: 481px) {
@@ -128,13 +134,13 @@ ul {
 		color: #000000;
 	}
 	.facebook i:hover {
-		color: rgb(156, 214, 214);
+		color: var(--blue);
 	}
 	.instagram i:hover {
-		color: rgb(247, 217, 87);
+		color: var(--yellow);
 	}
 	.twitter i:hover {
-		color: rgb(226, 141, 103);
+		color: var(--red);
 	}
 }
 /*
