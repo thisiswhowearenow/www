@@ -7,8 +7,8 @@ JAVASCRIPT
 - write AJAX POST request to google sheet for email collection
 - hook up google sheets
 
-DNS
-- ALIAS .club & .net
+DEVOPS
+- SSL Cert
 
 CSS
 - lint
