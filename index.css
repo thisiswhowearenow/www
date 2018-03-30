@@ -155,7 +155,7 @@ ul {
 	}
 }
 @media all and (min-width: 481px) {
-	.facebook i, .instagram i, .twitter i {
+	.facebook i, .instagram i, .twitter i, .facebook i:visited, .instagram i:visited, .twitter i:visited {
 		color: #000000;
 	}
 	.facebook i:hover {
