@@ -144,18 +144,18 @@ ul {
 }
 
 @media all and (max-width: 480px) {
-	.facebook, .facebook i:hover {
+	.facebook i, .facebook i:hover {
 		color: var(--blue);
 	}
-	.instagram, .instagram i:hover {
+	.instagram i, .instagram i:hover {
 		color: var(--yellow);
 	}
-	.twitter, .twitter i:hover {
+	.twitter i, .twitter i:hover {
 		color: var(--red);
 	}
 }
 @media all and (min-width: 481px) {
-	.facebook, .instagram, .twitter {
+	.facebook i, .instagram i, .twitter i {
 		color: #000000;
 	}
 	.facebook i:hover {
